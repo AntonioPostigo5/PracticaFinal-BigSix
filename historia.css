@@ -1,0 +1,110 @@
+
+/*HEADER*/
+
+
+header {
+    background: linear-gradient(to right, #7a16c2, #3f1a63); 
+    text-align: center;
+    color: #99FF00;
+    font-size: 50px;
+    padding: 15px 50px;
+    font-weight: bold,;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}    
+
+/*SUBTITULO*/
+
+
+.subtitulo {
+    background: linear-gradient(to right, #7a16c2, #3f1a63);
+    text-align: center;
+    color: #99FF00;
+    padding: 20px 50px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+    
+}
+
+.subtitulo h2 {
+    font-size: 30px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #99FF00;
+}
+
+.video{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #5A2D97;
+    margin-bottom: 20px;
+}
+
+/* HISTORIA*/
+
+
+section#historia {
+    padding: 20px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+#historia p{
+    font-size: 20px;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    color: #5A2D97;
+    margin-bottom: 20px;
+}
+
+table.palmares {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+table.palmares th, table.palmares td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+table.palmares th {
+    background-color: #5A2D97;
+    color: white;
+    font-weight: bold;
+}
+
+table.palmares td.ganado {
+    background-color: #9b3dbf;
+    color: white;
+    font-weight: bold;
+}
+
+table.palmares td:not(.ganado) {
+    background-color: #f1f1f1; 
+}
+
+table.palmares td.total {
+    background-color: #8e2db2; 
+    color: white;
+    font-weight: bold;
+}
+
+table.palmares tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.palmares tr:hover {
+    background-color: #f1f1f1;
+}

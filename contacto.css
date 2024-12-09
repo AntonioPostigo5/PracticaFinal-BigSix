@@ -1,0 +1,53 @@
+/*CONTACTO*/
+
+
+#contacto {
+    max-width: 550px;
+    margin: auto;
+    margin-top: 20px;
+    padding: 25px;
+    background: #fff;
+    box-shadow: 0 25px 25px rgba(183, 0, 255, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color:#9b3dbf;
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid;
+    margin-bottom: 35px;
+    
+}
+button[type="enviar"] {
+    width: 100%;
+    padding: 20px;
+    background: #9b3dbf;
+    color: white;
+    border-radius: 20px;/*borde redondo*/
+    border: 7px ridge;
+    cursor: pointer;
+    text-align: center;
+}
+#mensaje{
+    margin-top: 30px;
+}
+#boton:active{
+    color: #99FF00;
+
+}
+
+
+/* H2 */
+
+
+h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 28px;
+}

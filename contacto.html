@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"><link rel="stylesheet" href="PracticaFinal.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icono.png" type="image/x-icon">
+    <title>Big Six de la Premier League</title><link rel="stylesheet" href="contacto.css">
+</head>
+<body>
+    <header>
+        <p>Big Six de la Premier League</p>
+        
+        
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="equipos.html">Equipos</a></li>
+                <li><a href="historia.html">Historia</a></li>
+                <li><a href="noticias.html">Noticias</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="acerca-de-mi.html">Acerca de mí</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+
+        <label for="edad">Edad:</label>
+        <input type="number" id="edad" name="edad">
+        
+        <label for="equipo">Equipo favorito:</label><br><br>
+        <input type="radio" id="manutd" name="equipo" value="Manchester United"> Manchester United
+        <input type="radio" id="liverpool" name="equipo" value="Liverpool"> Liverpool
+        <input type="radio" id="chelsea" name="equipo" value="Chelsea"> Chelsea<br><br>
+        <input type="radio" id="tottenham" name="equipo" value="Tottenham"> Tottenham
+        <input type="radio" id="mancity" name="equipo" value="Manchester City"> Manchester City
+        <input type="radio" id="arsenal" name="equipo" value="Arsenal"> Arsenal
+        
+        <textarea id="mensaje" name="mensaje" placeholder="Dime tu opinión sobre esta página web"></textarea>
+
+        <label for="terminos">
+            <input type="checkbox" id="cookies" name="cookies" value="acepto" required>
+            Acepto los términos y condiciones.
+        </label><br><br>
+
+        <button id="boton" type="enviar" value="ENVIAR">ENVIAR</button>
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2024 Big Six de la Premier League 
+</footer>
